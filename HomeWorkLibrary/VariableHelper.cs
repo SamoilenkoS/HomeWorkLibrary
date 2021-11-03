@@ -8,5 +8,12 @@ namespace HomeWorkLibrary
         {
             return a * b;
         }
+
+        public static void Task2(ref string a, ref string b)
+        {
+            string temp = a;
+            a = b;
+            b = temp;
+        }
     }
 }
